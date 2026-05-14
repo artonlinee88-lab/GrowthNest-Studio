@@ -7,6 +7,7 @@ import { Work } from "./components/Work";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import PrivacyPolicy from "../../privacy-policy.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,9 @@ export default function App() {
         <About />
         <Contact />
         <Footer />
+        <div style={{ background: "#050a15", color: "white" }}>
+          <PrivacyPolicy />
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export default function PrivacyPolicy() {
   return (
-    <main style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}>
+    <main id="privacy-policy" style={{ padding: "2rem", maxWidth: "800px", margin: "0 auto" }}>
       <h1>Privacy Policy – Growth Nest Studio</h1>
       <p>
         At Growth Nest Studio, we respect your privacy and are committed to

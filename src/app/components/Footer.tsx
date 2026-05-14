@@ -104,7 +104,7 @@ export function Footer() {
             {["Privacy Policy", "Terms of Service", "Cookie Policy"].map((item) => (
               <a
                 key={item}
-                href="#"
+                href={item === "Privacy Policy" ? "#privacy-policy" : "#"}
                 className="text-gray-600 text-sm hover:text-gray-400 transition-colors"
                 style={{ textDecoration: "none" }}
               >
